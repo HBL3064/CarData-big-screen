@@ -1,29 +1,24 @@
 # CarData-big-screen
 
 这是一个基于Vue3+Django5+ECharts+DataV的汽车数据可视化大屏项目
+展示数据通过网络爬虫获取，数据来源于：懂车帝
 
-##后端地址
+## 后端地址
+由于前后端分离，若未启动后端可能导致前端页面中的某些数据无法渲染
+https://github.com/HBL3064/CarData-backend
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## 启动项目
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 启动服务器
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 项目展示
 
-```sh
-npm run build
-```
+![alt text](image.png)
