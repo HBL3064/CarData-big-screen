@@ -1,8 +1,8 @@
 # CarData-big-screen
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个基于Vue3+Django5+ECharts+DataV的汽车数据可视化大屏项目
 
-## Recommended IDE Setup
+##后端地址
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
