@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url('image/bg.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.map-container {
+    position: fixed;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    /* background: #000; */
+}
+.map1 {
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('/image/map.png');
+  background-size: 100% 100%;
+  opacity: 0.3;
+}
+.map2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background: url('/image/lbx.png');
+  animation: rotate1 15s linear infinite;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+.map3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px ;
+  height: 500px;
+  background: url('/image/jt.png');
+  animation: rotate2 10s linear infinite;
+  opacity: 0.6;
+  background-size: 100% 100%;
+}
+
+@keyframes rotate1 {
+  form {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  form {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
